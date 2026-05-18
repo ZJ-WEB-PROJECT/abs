@@ -34,7 +34,7 @@ jobs:
           host: 103.52.152.201
           username: root
           port: 17417
-          key: ${{ secrets.CG_MARK }}
+          key: ${{ secrets.ABS_KEY }}
           source: ./dist/*
           target: /www/wwwroot/meecxxc.one/dist
           strip_components: 1
